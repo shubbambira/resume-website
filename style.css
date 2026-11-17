@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7fa;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #f59e0b;
+    border-bottom: 2px solid #cbd5e1;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: #111827;
+}
+
+a {
+    color: #f59e0b;
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: #f59e0b;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 3px solid #b45309;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-link {
+    color: #111827;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#main-header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.contact-info {
+    font-size: 15px;
+    color: #64748b;
+}
+
+.content-section {
+    background-color: #ffffff;
+    width: 75%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px 40px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+
+.project-card {
+    margin-bottom: 25px;
+}
+
+.tools {
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 0;
+}
+
+.project-card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.project-card li {
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #fef3c7;
+    color: #111827;
+}
+
+.skills-container {
+    margin-top: 15px;
+}
+
+.skill-badge {
+    display: inline-block;
+    background-color: #fef3c7;
+    color: #111827;
+    border: 1px solid #f59e0b;
+    padding: 8px 15px;
+    margin: 5px 5px 5px 0;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #f59e0b;
+    color: #111827;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Bhati - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#summary" class="nav-link">Summary</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#courses" class="nav-link">Courses & Skills</a></li>
+        </ul>
+    </nav>
+
+    <header id="main-header">
+        <h1>SHUBHAM BHATI</h1>
+        <p class="contact-info">
+            Jodhpur, Rajasthan, India | 7014672647 | <a href="mailto:shubhambirabhati9@gmail.com">shubhambirabhati9@gmail.com</a> | 
+            <a href="https://www.linkedin.com/in/shubham-bhati-" target="_blank">LinkedIn</a>
+        </p>
+    </header>
+
+    <section id="summary" class="content-section">
+        <h2>SUMMARY</h2>
+        <p>First-year BBA student at IIM Bangalore (Digital Business & Entrepreneurship). Self-taught in Python, n8n automation and AI-assisted development since May 2025, with projects in finance automation and sales tracking.</p>
+    </section>
+
+    <section id="education" class="content-section">
+        <h2>EDUCATION</h2>
+        <table>
+            <tr>
+                <th>Institution</th>
+                <th>Program / Level</th>
+                <th>Year</th>
+                <th>Status / Score</th>
+            </tr>
+            <tr>
+                <td>Indian Institute of Management Bangalore</td>
+                <td>BBA, Digital Business & Entrepreneurship (3rd cohort)</td>
+                <td>2026 - 2029</td>
+                <td>In Progress</td>
+            </tr>
+            <tr>
+                <td>RBSE Board, Jodhpur</td>
+                <td>Class 12</td>
+                <td>2021</td>
+                <td>93.14%</td>
+            </tr>
+            <tr>
+                <td>RBSE Board, Jodhpur</td>
+                <td>Class 10</td>
+                <td>2019</td>
+                <td>85%</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="projects" class="content-section">
+        <h2>PROJECTS</h2>
+
+        <article class="project-card">
+            <h3>GST Reconciliation Engine</h3>
+            <p class="tools">Python, pandas, RapidFuzz | <em>In Progress</em></p>
+            <ul>
+                <li>Reconciles a business's Tally purchase records against supplier-filed GSTR-2B data to identify invoices eligible for Input Tax Credit (ITC).</li>
+                <li>Built automatic header detection (anchored on GSTIN patterns) and data cleaning for inconsistent Excel formats.</li>
+                <li>Redesigned from a single-file script into a modular architecture to handle edge cases such as credit/debit notes, reverse charge entries and date mismatches.</li>
+                <li>Implemented the first of three planned matching passes; tested on mock data.</li>
+            </ul>
+        </article>
+
+        <article class="project-card">
+            <h3>Salesman Tracking Dashboard</h3>
+            <p class="tools">Google Antigravity | <em>Prototype</em></p>
+            <ul>
+                <li>Designed a web dashboard prototype, built with AI assistance, for distributors to track salesmen's live location, orders and reports.</li>
+            </ul>
+        </article>
+
+        <article class="project-card">
+            <h3>n8n + Vapi Automation Workflow</h3>
+            <p class="tools">n8n, Vapi</p>
+            <ul>
+                <li>Built a conversational workflow that triggers appointment booking and cancellation through n8n and Vapi.</li>
+            </ul>
+        </article>
+
+        <article class="project-card">
+            <h3>Content Repurposing Outreach</h3>
+            <p class="tools">Self-initiated</p>
+            <ul>
+                <li>Repurposed podcast content into sample posts and cold-emailed business and finance creators; received a reply from a well-known creator.</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="courses" class="content-section">
+        <h2>COURSES</h2>
+        <ul>
+            <li><strong>CS50x, Harvard (self-paced):</strong> problem sets through the Python unit (C, memory management, data structures, SQL); completed the HTML/CSS/JavaScript lecture.</li>
+            <li><strong>freeCodeCamp, Web Development:</strong> HTML and CSS sections.</li>
+        </ul>
+
+        <h2>SKILLS</h2>
+        <div class="skills-container">
+            <span class="skill-badge">Python (pandas)</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">HTML/CSS</span>
+            <span class="skill-badge">n8n</span>
+            <span class="skill-badge">Vapi</span>
+            <span class="skill-badge">Prompt Engineering</span>
+            <span class="skill-badge">AI-assisted dev (Google Antigravity)</span>
+            <span class="skill-badge">Excel</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Shubham Bhati | IIMB BBA DBE Midterm Project</p>
+    </footer>
+
+</body>
+</html>
